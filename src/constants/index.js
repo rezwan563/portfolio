@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
@@ -262,4 +262,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export  { services, technologies, experiences, testimonials, projects };
