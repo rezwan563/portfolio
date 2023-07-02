@@ -27,6 +27,9 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import photography from './photography.png'
+import cuisine from './cuisine.png'
+import toy from './toy.png'
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -57,6 +60,9 @@ export {
   starbucks,
   tesla,
   carrent,
+  photography,
+  toy,
+  cuisine,
   jobit,
   tripguide,
 };

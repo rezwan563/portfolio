@@ -20,6 +20,9 @@ import {
     tesla,
     shopify,
     carrent,
+    photography,
+    toy,
+    cuisine,
     jobit,
     tripguide,
     threejs,
@@ -72,18 +75,18 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -108,10 +111,10 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
@@ -198,9 +201,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Create A Story",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to enroll into different photography classes. Student can complete payment thoroug SSLCOMREZ",
       tags: [
         {
           name: "react",
@@ -211,17 +214,17 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "JWT",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: photography,
+      source_code_link: "https://github.com/rezwan563/create-a-story-client",
     },
     {
-      name: "Job IT",
+      name: "My Heroes",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to add new toy to the server, search for a toy, sort by price and also edit/delete the added toy",
       tags: [
         {
           name: "react",
@@ -232,24 +235,24 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mongodb",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: toy,
+      source_code_link: "https://github.com/rezwan563/my-heroes-client",
     },
     {
-      name: "Trip Guide",
+      name: "Indian Cuisine",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive indian cuisine web application. User can find popular inidan recipe and see their recipes.",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
@@ -257,8 +260,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: cuisine,
+      source_code_link: "https://github.com/rezwan563/indian-cuisine",
     },
   ];
   

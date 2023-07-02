@@ -36,7 +36,7 @@ const ExperienceCard = ({ experience}) =>(  <VerticalTimelineElement
         experience.points.map((point, index) =>(
           <li 
           key={`experience-point-${index}`}
-          className="text-white-100 text-[14px] pl-1 tracking-wider"
+          className="text-white-100 text-[14px] pl-1  tracking-wider"
           >
             {point}
           </li>
@@ -67,4 +67,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, 'work');
+export default SectionWrapper(Experience, '');
